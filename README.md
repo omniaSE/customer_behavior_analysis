@@ -1,82 +1,116 @@
-Customer Behavior Analysis
+# Customer Behavior Analysis
 
-Overview
+## Overview
 
-This project analyzes customer shopping behavior using a structured, end-to-end data analysis workflow.
-The goal is to extract insights from raw data, validate them using SQL, and present results through an interactive Power BI dashboard.
+This project analyzes customer shopping behavior using SQL, Python, and Power BI to uncover purchasing patterns, customer preferences, and business insights.
 
+The project demonstrates a complete analytics workflow, including data cleaning, exploratory analysis, data transformation, and interactive dashboard development.
 
-Project Workflow
+## Business Objectives
 
-The project follows these steps:
+* Analyze customer purchasing behavior.
+* Identify spending patterns across customer segments.
+* Explore product category performance.
+* Examine the impact of discounts and subscription status.
+* Build an interactive dashboard to support business decision-making.
 
-• Data understanding and exploration
-• Data cleaning and preparation
-• Exploratory Data Analysis using Python
-• SQL analysis using Microsoft SQL Server
-• Data visualization using Power BI
+## Tools & Technologies
 
+* SQL
+* Python
+* Pandas
+* Jupyter Notebook
+* Power BI
+* Git & GitHub
 
-Dataset
+## Dataset
 
-The dataset contains customer shopping information such as:
+The dataset contains customer shopping transactions, including demographic information, purchase details, payment methods, product categories, and customer preferences.
 
-• Customer demographics
-• Purchase behavior
-• Product details
-• Discounts and promotions
-• Review ratings
+Key attributes include:
 
-The dataset was cleaned and transformed to ensure consistency and accuracy before analysis.
+* Customer ID
+* Age
+* Gender
+* Category
+* Item Purchased
+* Purchase Amount
+* Location
+* Season
+* Payment Method
+* Subscription Status
+* Shipping Type
+* Review Rating
+* Previous Purchases
+* Frequency of Purchases
 
+## Project Workflow
 
-Tools and Technologies
+### 1. Data Cleaning
 
-• Python
-– Pandas
-– NumPy
-– Jupyter Notebook
+* Checked data quality.
+* Handled missing values.
+* Standardized column names.
+* Corrected data types.
+* Prepared the dataset for analysis.
 
-• SQL
-– Microsoft SQL Server
-– SQL Server Management Studio (SSMS)
+### 2. Data Analysis
 
-• Visualization
-– Power BI
+Performed exploratory data analysis to identify:
 
+* Customer demographics
+* Spending behavior
+* Product preferences
+* Seasonal purchasing trends
+* Subscription patterns
 
-Key Analysis Areas
+### 3. Dashboard Development
 
-• Customer purchase patterns
-• Spending behavior by category
-• Purchase frequency analysis
-• Product review ratings
-• Impact of discounts and promotions
+Created an interactive Power BI dashboard to visualize:
 
+* Sales Performance
+* Customer Demographics
+* Product Categories
+* Purchase Trends
+* Customer Behavior
+* Business KPIs
 
-Dashboard
+## Dashboard Preview
 
-An interactive Power BI dashboard was built to present insights clearly and effectively.
-It includes filters, KPIs, and visual comparisons to support data-driven decisions.
+![Dashboard](image/Dashboard.png)
 
+## Repository Structure
 
-How to Use
+```text
+Customer-Behavior-Analysis/
+│
+├── dashboards/
+│    └── Customer Behavior.pbix
+├── data/
+│    └── customer_shopping_behavior.csv.xlsx
+├── images/
+│   └── dashboard.png
+│
+├── notebook/
+│   └── Customer_shopping_behavier.ipynb
+├── sql/
+│   └── customer_behavior.sql
+└── README.md
+```
 
-Run the Python notebook to clean and analyze the data
+## Skills Demonstrated
 
-Load the cleaned data into SQL Server
+* SQL Querying
+* Data Cleaning
+* Data Transformation
+* Exploratory Data Analysis
+* Data Visualization
+* Dashboard Design
+* Business Intelligence
+* Git Version Control
 
-Execute SQL queries for deeper analysis
+## Author
 
-Open the Power BI file to explore the dashboard
+Omnia Taha Awad
 
-
-Purpose
-
-This project demonstrates practical skills in:
-
-• Data analysis
-• SQL querying
-• Data cleaning
-• Business insights
-• Dashboard design
+Software Engineering Graduate transitioning into Data Analytics with practical experience in SQL, Python, Power BI, and business data analysis.
